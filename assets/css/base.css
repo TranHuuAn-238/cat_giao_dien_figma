@@ -3,7 +3,8 @@
     --secondary: #FE4C4C;
     --text: #171717;
     --gray: #999999;
-    --light-gray: #F9F9F9;
+    --background: #F2F2F2;
+    --light-gray: #e5e5e5;
     --green-text: #2ADA66;
     --blue-text: #021A84;
     --red-text: #E5532A;
@@ -16,13 +17,14 @@ html,
 body {
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    background-color: var(--background);
 }
 
 .wrapper {
     max-width: 1160px;
     width: 100%;
     /* margin: 0 auto; */
-    margin-inline: auto;
+    margin-inline: auto; 
 }
 
 /* Button styles */
