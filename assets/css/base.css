@@ -82,3 +82,9 @@ body {
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /* end Button styles */
+
+.heading {
+    color: #010d42;
+    font-size: 34px;
+    font-weight: 700;
+}
