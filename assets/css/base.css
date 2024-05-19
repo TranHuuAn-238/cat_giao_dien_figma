@@ -2,6 +2,7 @@
     --primary: #021A84;
     --secondary: #FE4C4C;
     --text: #171717;
+    --dark-primary: #010d42;
     --gray: #999999;
     --background: #F2F2F2;
     --light-gray: #e5e5e5;
@@ -84,7 +85,7 @@ body {
 /* end Button styles */
 
 .heading {
-    color: #010d42;
+    color: var(--dark-primary);
     font-size: 34px;
     font-weight: 700;
 }
