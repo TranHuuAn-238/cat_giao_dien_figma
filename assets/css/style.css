@@ -268,3 +268,75 @@
     font-size: 12px;
 }
 /* end Job list */
+
+/* Introduce */
+.intro-wrap {
+    margin-top: 80px;
+}
+
+.heading-wrap {
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.intro-card__list {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+}
+
+.intro-card__item {
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.intro-card__item:nth-child(1) {
+    background: var(--green-gradient);
+    color: var(--green-text);
+}
+
+.intro-card__item:nth-child(2) {
+    background: var(--purple-gradient);
+    color: var(--dark-primary);
+}
+
+.intro-card__item:nth-child(3) {
+    background: var(--red-gradient);
+    color: var(--red-text);
+}
+
+.intro-card__img {
+    margin-inline: auto;
+}
+
+.intro-card__title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.intro-card__desc {
+    text-align: center;
+    margin-top: 8px;
+}
+/* end Introduce */
+
+/* Partner */
+.partner-wrap {
+    margin-top: 80px;
+}
+
+
+.partner-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+/* end Partner */
