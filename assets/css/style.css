@@ -397,7 +397,7 @@
     display: flex;
     border-radius: 20px;
     overflow: hidden;
-    background: linvear-gradient(221deg, #0CC64B 0%, #26AB5B 76.95%);
+    background: linear-gradient(221deg, #0CC64B 0%, #26AB5B 76.95%);
 }
 .subBanner__left {
     padding: 26px 40px;
@@ -422,3 +422,120 @@
     background: rgba(255, 255, 255, 0.30);
 }
 /* end Sub banner */
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.footer__input {
+    padding: 16px;
+    min-width: 252px;
+    background-color: white;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+}
+.footer_formBtn {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, #ef463a, #fca939 100%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.footer__total {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footer__totalItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.footer__totalNumberWrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__totalNumber {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-primary);
+    font-weight: 700;
+    font-size: 14px;
+}
+.footer__totalText {
+    color: var(--gray);
+    font-size: 14px;
+}
+.footer__body {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--light-gray);
+    margin-bottom: 40px;
+}
+.footer__list {
+    display: flex;
+    gap: 40px;
+}
+.footer__item {
+    flex: 1;
+}
+.footer__subLink,
+.footer__item p {
+    color: var(--gray);
+}
+.footer__logo {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--light-gray);
+}
+.footer__socialList {
+    display: flex;
+    gap: 16px;
+    align-items: center ;
+}
+.footer__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.footer__subList {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.footer__subLink {
+    transition: linear .2s;
+}
+.footer__subLink:hover {
+    color: var(--primary);
+}
+.copyright {
+    text-align: center;
+    color: var(--gray);
+}
+/* end Footer */
